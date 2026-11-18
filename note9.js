@@ -15,4 +15,4 @@
 console.log(Math.floor(Date.now() / 1000))
  let newDate = new Date()
  console.log(newDate.getMonth())
-  console.log(newDate.getDay())
+  console.log(newDate.getDay() + 1)
